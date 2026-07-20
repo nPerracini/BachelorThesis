@@ -126,7 +126,7 @@ Contains the wavelength calibration from processing_neon.py
 Contains the factors for detector wavelength bias from processing_detector.py  
 
 ## Issues
-+ Processing in LightCurve/brightness_curve.py needs to be adjusted. Either provide small images or optimize the process to decrease time for processing the images.\
-+ Detection of bright pixels in LightCurve/brightness_curve.py and LightCurve/flux_measurement.py can be optimized to not need hardcoding. The presence of other stars and rotation during the night make this difficult.\
-+ Empty folders might lead to problems. Error handling needs expansion.\
-+ For processing in Spectrum/ the correction files were provided by Dr. Sellers, contact N. Perracini for access.\
++ Processing in LightCurve/brightness_curve.py needs to be adjusted. Either provide small images or optimize the process to decrease time for processing the images.
++ Detection of bright pixels in LightCurve/brightness_curve.py and LightCurve/flux_measurement.py can be optimized to not need hardcoding. The presence of other stars and rotation during the night make this difficult.
++ Empty folders might lead to problems. Error handling needs expansion.
++ For processing in Spectrum/ the correction files were provided by Dr. Sellers, contact N. Perracini for access.
